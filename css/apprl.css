@@ -1,0 +1,67 @@
+.notice.apprl-notice {
+	padding: 10px;
+}
+
+.notice.apprl-notice span {
+	margin-left: 10px;
+	font-size: 1.1em;
+}
+
+#apprl_connect, .notice.apprl-notice span {
+	vertical-align: middle;
+}
+
+
+.apprl-settings-container {
+	background-color: #fff;
+	width: 100%;
+	max-width: 500px;
+	padding: 15px;
+}
+
+.apprl-settings-container .apprl-intro {
+	margin-bottom: 10px;
+}
+
+.apprl-settings-container h2 span {
+	font-weight: 400;
+}
+
+.apprl-settings-container th {
+	width: 60%;
+}
+
+.apprl-settings-container .apprl-second-radio {
+	margin-left: 10px;
+}
+
+.apprl-settings-container p.submit {
+	margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+#apprl-link-dialog .apprl-link-dialog-content p {
+	margin-top: 0;
+}
+
+#apprl-link-dialog .response {
+	margin-top: 10px;
+}
+
+
+.ui-dialog.apprl-link-dialog {
+	left: 50% !important;
+	top: 50% !important;
+	margin-left: -250px;
+	margin-top: -200px;
+}
+@media screen and (max-width: 768px) {
+	.ui-dialog.apprl-link-dialog  {
+	    width: auto !important;
+	    margin-left: 0;
+	    left: 10px !important;
+	    right: 10px !important;
+	    max-width: 1024px !important;
+	}
+}
